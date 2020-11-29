@@ -1,0 +1,391 @@
+@import "config";
+
+$primary-color: white;
+$secondary-color: rgb(44, 48, 54);
+$transition-color: blue;
+$other-color: red;
+
+body {
+    background-image: linear-gradient($transition-color, $other-color);
+    background-repeat: no-repeat;
+    background-size: 100VH 100VH;
+    background-position: 0% 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1 {
+    color: $primary-color;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+#link {
+    width: 100%;
+    text-align: center;
+}
+#link a {
+    text-decoration: underline;
+    color: $primary-color;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:link{color: $primary-color;}
+a:visited{color: $primary-color;}
+a:active{color: white;}
+label {
+    color: $primary-color;
+    font-size: 20px;
+    margin-top: 10px;
+}
+input[type=text] {
+    width: 90%;
+    height: 40px;
+    background-color: lightblue;
+    border: none;
+    margin-left: 5%;
+}
+input::placeholder {
+    color: $secondary-color;
+    font-size: 25px;
+}
+p {
+    text-align: center;
+    font-size: 26px;
+    color: $primary-color;
+    text-shadow: 3px 3px $secondary-color;
+}
+
+.temp {
+    text-align: center;
+    color: $primary-color;
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: 3px 3px $secondary-color;
+}
+.weatherIcon {
+text-align: center;
+font-size: 40px;
+color: $primary-color;
+text-shadow: 3px 3px $secondary-color;
+}
+.weather {
+    text-align: center;
+    font-size: 40px;
+    color: $primary-color;
+    text-shadow: 2px 2px $secondary-color;
+}
+.low {
+    text-align: center;
+    margin-top: 10px;
+    color: $primary-color;
+    font-size: 40px;
+    text-shadow: 2px 2px $secondary-color;
+}
+.hi {
+    text-align: center;
+    margin-top: 10px;
+    color: $primary-color;
+    font-size: 40px;
+    text-shadow: 2px 2px $secondary-color;
+}
+.weatherIcon1{
+    margin-top: -20px;
+}
+.weatherIcon2{
+    margin-top: -30px;
+}
+.weatherIcon3{
+    margin-top: -30px;
+}
+.weatherIcon4{
+    margin-top: -30px;
+}
+.weatherIcon5{
+    margin-top: -30px;
+}
+.day1 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -80px;
+}
+.temp1{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.weather1 {
+position: absolute;
+margin-left: 160px;
+margin-top: -40px;
+}
+.day2 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -80px;
+}
+.temp2{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.weather2 {
+position: absolute;
+margin-left: 160px;
+margin-top: -40px;
+}
+.day3 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -80px;
+}
+.temp3{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.weather3 {
+position: absolute;
+margin-left: 160px;
+margin-top: -40px;
+}
+.day4 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -80px;
+}
+.temp4{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.weather4 {
+position: absolute;
+margin-left: 160px;
+margin-top: -40px;
+}
+.day5 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -80px;
+}
+.temp5{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -55px;
+}
+.weather5 {
+position: absolute;
+margin-left: 160px;
+margin-top: -40px;
+}
+.store {
+    font-size: 25px;
+    color: $primary-color;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+@media only screen and (min-width: 750px) {
+    .weatherIcon1{
+        margin-top: -20px;
+        margin-left: 250px;
+    }
+    .weatherIcon2{
+        margin-top: -30px;
+        margin-left: 250px;
+    }
+    .weatherIcon3{
+        margin-top: -30px;
+        margin-left: 250px;
+    }
+    .weatherIcon4{
+        margin-top: -30px;
+        margin-left: 250px;
+    }
+    .weatherIcon5{
+        margin-top: -30px;
+        margin-left: 250px;
+    }
+    .day1 {
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -80px;
+        
+    }
+    .temp1{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -55px;
+    }
+    .weather1 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -40px;
+    }
+    .day2 {
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -80px;
+    }
+    .temp2{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -55px;
+    }
+    .weather2 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -40px;
+    }
+    .day3 {
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -80px;
+    }
+    .temp3{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -55px;
+    }
+    .weather3 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -40px;
+    }
+    .day4 {
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -80px;
+    }
+    .temp4{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -55px;
+    }
+    .weather4 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -40px;
+    }
+    .day5 {
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -80px;
+    }
+    .temp5{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: -55px;
+    }
+    .weather5 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -40px;
+    }
+    
+  }
+  @media only screen and (min-width: 1024px) {
+    .weatherIcon1{
+        margin-top: -20px;
+        margin-left: 375px;
+    }
+    .weatherIcon2{
+        margin-top: -30px;
+        margin-left: 375px;
+    }
+    .weatherIcon3{
+        margin-top: -30px;
+        margin-left: 375px;
+    }
+    .weatherIcon4{
+        margin-top: -30px;
+        margin-left: 375px;
+    }
+    .weatherIcon5{
+        margin-top: -30px;
+        margin-left: 375px;
+    }
+    .day1 {
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -80px;
+        
+    }
+    .temp1{
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -55px;
+    }
+    .weather1 {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -40px;
+    }
+    .day2 {
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -80px;
+    }
+    .temp2{
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -55px;
+    }
+    .weather2 {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -40px;
+    }
+    .day3 {
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -80px;
+    }
+    .temp3{
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -55px;
+    }
+    .weather3 {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -40px;
+    }
+    .day4 {
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -80px;
+    }
+    .temp4{
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -55px;
+    }
+    .weather4 {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -40px;
+    }
+    .day5 {
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -80px;
+    }
+    .temp5{
+        position: absolute;
+        margin-left: 535px;
+        margin-top: -55px;
+    }
+    .weather5 {
+    position: absolute;
+    margin-left: 535px;
+    margin-top: -40px;
+    }
+    
+  }
